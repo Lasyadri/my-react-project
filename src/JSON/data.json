@@ -1,0 +1,55 @@
+{
+    "user": [{
+            "number": 1,
+            "name": "Ben Blocker",
+            "graduation": "MBA"
+        },
+        {
+            "number": 22,
+            "name": "Dave Defender",
+            "graduation": "MD"
+        },
+        {
+            "number": 33,
+            "name": "Sam Sweeper",
+            "graduation": "MD"
+        },
+        {
+            "number": 44,
+            "name": "Matt Midfielder",
+            "graduation": "MCA"
+        },
+        {
+            "number": 55,
+            "name": "William Winger",
+            "graduation": "MA"
+        },
+        {
+            "number": 66,
+            "name": "Fillipe Forward",
+            "graduation": "BSC"
+        }
+    ],
+    "login": [
+        {
+            "username" : "admin",
+            "passowrd" : 123,
+            "role"  :  "admin"
+        },
+        {
+            "username" : "user1",
+            "passowrd" : "user1",
+            "role"  :  "user"
+        },
+        {
+            "username" : "user2",
+            "passowrd" : "user2",
+            "role"  :  "user"
+        },
+        {
+            "username" : "user3",
+            "passowrd" : "user3",
+            "role"  :  "user"
+        }
+    ]
+}

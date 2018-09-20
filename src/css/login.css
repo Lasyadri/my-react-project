@@ -1,0 +1,60 @@
+.log-in-container {
+    padding-top: 20px;
+    display: block;
+    width: 525px;
+    height: 480px;
+    margin-left: 30%;
+    /* margin-top: 1px; */
+    background-color: #f8f9fae0;
+}
+
+.log-in-outer-box{
+    height: 440px;
+    border:1px solid #777A80;
+    background-color:white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+.log-in-outer-box-shadow{
+    background-color: #f8f9fae0;
+}
+
+.log-in-inner-box{
+    border:1px solid #777A80;
+    background-color:#c9c9cc;
+    padding:25px;
+    padding-bottom: 0px;
+}
+
+.log-in-input{
+    padding : 10px;
+}
+
+.log-in-input-logo{
+    padding : 10px;
+    padding-left: 36%;
+}
+
+.log-in-logo{
+    height:100px;
+    width:100px;
+}
+
+.btn-success.login{
+    background: #abd62a;
+    color:#374706;
+    border:1px solid #63800a9e
+}
+
+.log-in-input-bottom{
+    padding:2%;
+    border-top: 1px solid grey;
+}
+
+.btn-warning.register{
+    margin-left:31%;
+    background:#f29924;
+    border:1px solid #75490f
+}
