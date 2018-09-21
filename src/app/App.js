@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { HashRouter } from 'react-router-dom';
 
 import LogIn from '../containers/logIn/LogIn';
-import Dashboard from '../dashboard/dashboard';
+import Dashboard from '../containers/dashboard/dashboard';
 import Footer from '../components/footer/Footer';
 import Router from './Router';
 

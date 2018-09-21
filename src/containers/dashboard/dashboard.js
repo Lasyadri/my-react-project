@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { Link, Switch, Route } from 'react-router-dom';
 // import Workbook from 'react-excel-workbook';
 
-import '../css/dashboard.css';
+import '../../css/dashboard.css';
 import Home from './home';
 import MyProfile from '../myProfile/myProfile';
-import Users from '../users/users';
-import Product from '../containers/product/product';
+import Users from '../../users/users';
+import Product from '../product/product';
 
-import Logo from '../images/logo.png';
-import LogoText from '../images/logo_text.png';
+import Logo from '../../images/logo.png';
+import LogoText from '../../images/logo_text.png';
 
 const data1 = [
   {
@@ -74,12 +74,11 @@ class Dashboard extends Component{
                   <ul>
                     <li className="col-sm-2 active"><button className="btn btn-link"><Link to='/'>Dashboard</Link></button></li>
                     <li className="col-sm-2"><button className="btn btn-link"><Link to='/product'>Products</Link></button></li>
+                    <li className="col-sm-2"><button className="btn btn-link"><Link to='/users'>Users</Link></button></li>                    
+                    <li className="col-sm-2"><button className="btn btn-link"><Link to='/schedule'>Schedule</Link></button></li>
                     <li className="col-sm-2"><button className="btn btn-link"><Link to='/profile'>My Profile</Link></button></li>
-                    
-                    {/* <li className="col-sm-2"><button className="btn btn-link"><Link to='/profileee'>My Profileee</Link></button></li> */}
-                    {/* <li className="col-sm-2"><button className="btn btn-link"><Link to='/users'>Users</Link></button></li>                     */}
-                    {/* <li className="col-sm-2"><button className="btn btn-link"><Link to='/schedule'>Schedule</Link></button></li> */}
                     <li className="col-sm-2" style={{float:'right', height:'66', marginTop:'15px'}} onClick={this.onClickLogout}><button className="btn btn-link">Log out</button></li>
+                    {/* <li className="col-sm-2"><button className="btn btn-link"><Link to='/profileee'>My Profileee</Link></button></li> */}
                   </ul>       
                   
                   {/* <Header /> */}                                  
@@ -97,7 +96,7 @@ export default Dashboard;
 
 
 const Main = () => (
-  <main>
+  // <main>
     <Switch>
       <Route exact path='/' component={Home}/>
       <Route exact path='/profile' component={MyProfile}/>
@@ -106,7 +105,7 @@ const Main = () => (
       <Route path='/users' component={Users}/>
       <Route path='/schedule' component={Schedule}/>
     </Switch>
-  </main>
+  // </main>
 )
 /*
 const Roster = () => (

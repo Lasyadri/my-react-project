@@ -107,6 +107,7 @@ footer {
   float: left;
   min-height: 600px; }
   .shelf-container-header {
+    color: #747171;
     margin-bottom: 10px; }
     .shelf-container-header .products-found {
       float: left;

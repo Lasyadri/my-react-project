@@ -5,8 +5,8 @@ import React, { Component } from 'react';
 // import { fetchProducts } from '../../store/actions/productActions';
 // import { addProduct } from '../../store/actions/floatCartActions';
 
-// import Product from './Product';
-// import Filter from './Filter';
+import Product from './Product';
+import Filter from './Filter';
 import ShelfHeader from './shelfHeader';
 // import Clearfix from '../Clearfix';
 // import Spinner from '../Spinner';
@@ -63,13 +63,15 @@ class Shelf extends Component {
         {/* {this.state.loading &&
           <Spinner />
         } */}
-        {/* <Filter />   */}
-        <div className="shelf-container">
-        <h3>this is shelf</h3>
-          <ShelfHeader productsLength={this.state.products.length}/>
+        <Filter />  
+        <ShelfHeader productsLength={this.state.products.length}/>
+        {p}
+        {/* <div className="shelf-container"> */}
+        {/* <h3>this is shelf</h3> */}
+          {/* <ShelfHeader productsLength={this.state.products.length}/> */}
           {/* {p} */}
           {/* <Clearfix /> */}
-        </div>
+        {/* </div> */}
         {/* <Clearfix /> */}
       </React.Fragment>
     )

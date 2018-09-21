@@ -3,7 +3,7 @@ import '../../css/login.css';
 
 import Logo from '../../images/login1.png';
 import ForgotPassword from '../forgotPassword/ForgotPassword';
-import Register from '../../register/register';
+import Register from '../register/register';
 
 function Warning(props) {
     console.log(props.value)

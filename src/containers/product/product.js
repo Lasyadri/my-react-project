@@ -18,13 +18,14 @@ class Product extends Component {
        
     //   <Provider store={store}>
         <div className="product">
-         <h1>product</h1>
+        <Shelf />
+        
          {/* <FloatCart /> */}
         
            {/* <Corner /> */}
-          <main>
+          {/* <main>
             <Shelf />
-          </main>
+          </main> */}
            {/* <Footer /> */}
           {/* <FloatCart />  */}
           
